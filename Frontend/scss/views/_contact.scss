@@ -1,0 +1,41 @@
+// Contact
+.address {
+	dt {
+		float: left;
+		clear: left;
+		min-width: 150px;
+		margin-top: 10px;
+	}
+	dd {
+		float: left;
+		margin-top: 10px;
+	}
+}
+.form {
+	width: 100%;
+	float: left;
+	.item {
+		border-width: 0 0 1px 0;
+		margin: 0;
+	}
+	.input-label {
+		max-width: 110px;
+	}
+}
+
+.booking-form{
+	i.icon{
+		display: none;
+	}
+	.item-invalid{
+		i.icon{
+			display: inherit;
+			position: absolute;
+	    right: 5px;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    color: desaturate($assertive, 15%);
+		}
+		border-bottom-color: $assertive;
+	}
+}

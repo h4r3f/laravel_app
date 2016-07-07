@@ -1,0 +1,16 @@
+{
+  "name": "rococo",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.1",
+    "platform.js": "platform#~1.3.0"
+  },
+  "dependencies": {
+    "angular-moment": "~0.10.2",
+    "jQuery": "~2.1.4",
+    "angular-filter": "~0.5.5",
+    "ionic-datepicker": "~0.6.0",
+    "ionic-timepicker": "~0.4.0",
+    "ngCordova": "~0.1.20-alpha"
+  }
+}

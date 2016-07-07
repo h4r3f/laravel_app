@@ -1,0 +1,23 @@
+[
+    {
+        "field": "name:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "email:text",
+        "type": "email",
+        "validations": "required"
+    },
+    {
+        "field": "phone:text",
+        "type": "text"
+       
+    },
+    {
+        "field": "address:text",
+        "type": "textarea",
+        "validations": "required"
+    }
+
+]

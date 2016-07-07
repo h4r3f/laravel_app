@@ -1,0 +1,49 @@
+// Confirm order
+.confirm-order {
+	.info-bar {
+		padding: 0;
+		.col-50 {
+			padding: 10px 15px;
+		}
+		a {
+			text-decoration: none;
+			color: #676666;
+		}
+	}
+	.item {
+		border-width: 0 0 1px;
+		margin: 0;
+	}
+	.cart-item-count {
+		background: #fff4f4;
+		.badge {
+			line-height: 26px;
+			min-width: 30px;
+			border-radius: 50%;
+			margin-right: 10px;
+			float: left;
+			margin-top: 5px;
+		}
+	}
+	.cart-item-count+span {
+		float: left;
+	}
+	.input-label {
+		max-width: 100px;
+	}
+	.button-assertive {
+		float: right;
+		margin-top: 15px;
+	}
+	.total-amount {
+		font-weight: 700;
+		font-size: 20px;
+		float: left;
+		margin-right: 10px;
+		line-height: 35px;
+		&+span {
+			float: left;
+			line-height: 42px;
+		}
+	}
+} 

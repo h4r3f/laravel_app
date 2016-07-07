@@ -1,0 +1,49 @@
+// Thank you page
+.thank-you-page {
+	text-align: center;
+	h1 {
+		font-size: 70px;
+		font-weight: 300;
+		color: #e73f53;
+		margin: 90px 0 20px;
+		text-align: center;
+		line-height: 1.2;
+		text-transform: uppercase;
+	}
+	p {
+		color: #6a6969;
+	}
+	.links {
+		padding: 30px 0 0;
+		a {
+			margin: 0 10px 10px 10px;
+			font-size: 14px;
+		}
+	}
+
+}
+.checkout-alert {
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+// alert 
+.alert {
+	padding: 10px;
+	background-color: #ccc;
+	font-size: 14px;
+	transition: all 1s ease; 
+	&.success {
+		background-color: green;
+		color: #fff;
+	}
+}
+
+// animation
+.fade.active {
+  transition:0.5s linear all;
+  opacity:1;
+}
+.fade {
+  opacity:0;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "restaurantApp",
+  "app_id": "28f3b0eb",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

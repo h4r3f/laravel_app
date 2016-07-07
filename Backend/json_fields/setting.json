@@ -1,0 +1,33 @@
+[
+    {
+        "field": "name:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "address:text",
+        "type": "textarea",
+        "validations": "required"
+    },
+    {
+        "field": "image:text",
+        "type": "file",
+        "validations": "required"
+    },
+    {
+        "field": "email:integer",
+        "type": "email",
+        "validations": "required"
+    },
+    {
+        "field": "phone:string",
+        "type": "text",
+        "validations": ""
+    },
+    {
+        "field": "timmings:text",
+        "type": "textarea",
+        "validations": "required"
+    }
+
+]

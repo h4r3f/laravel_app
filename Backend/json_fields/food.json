@@ -1,0 +1,38 @@
+[
+    {
+        "field": "name:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "details:text",
+        "type": "textarea",
+        "validations": "required"
+    },
+    {
+        "field": "image:text",
+        "type": "file",
+        "validations": "required"
+    },
+    {
+        "field": "price:integer",
+        "type": "number",
+        "validations": "required"
+    },
+    {
+        "field": "special:integer",
+        "type": "radio:Yes,No",
+        "validations": ""
+    },
+    {
+        "field": "activate:integer",
+        "type": "radio:Yes,No",
+        "validations": "required"
+    },
+    {
+        "field": "type:string",
+        "type": "select:Lunch,Dinner",
+        "validations": ""
+    }
+
+]

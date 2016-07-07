@@ -1,0 +1,18 @@
+[
+    {
+        "field": "name:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "image:text",
+        "type": "file",
+        "validations": "required"
+    },
+    {
+        "field": "price:integer",
+        "type": "number",
+        "validations": "required"
+    }
+
+]

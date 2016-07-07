@@ -1,0 +1,40 @@
+.cat-list {
+	padding: 20px 15px;
+	background-color: #f0f0f0;
+	display: block;
+	overflow: hidden;
+	.cat-box {
+		padding: 0 10px;
+		width: 50%;
+		float: left;
+		@media (max-width: 379px) {
+			width: 100%;
+		}
+	}
+	.cat-image {
+		width: 128px;
+		height: 128px;
+		border-radius: 50%;
+		display: block;
+		background-size: cover;
+		background-position: center;
+		margin: 0 auto 10px;
+	}
+	.cat {
+		display: block;
+		padding: 20px;
+		margin-top: 20px;		
+		text-align: center;
+		background-color: #fff;
+		text-decoration: none;
+		box-shadow: 0 0 5px #ded9d9
+	}
+	h3 {
+		color: #4e4d4d;
+		font-size: 25px;
+		margin: 0;
+	}
+	p {
+		color: #979797;
+	}
+}

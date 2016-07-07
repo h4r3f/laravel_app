@@ -1,0 +1,28 @@
+[
+    {
+        "field": "name:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "email:text",
+        "type": "email",
+        "validations": "required"
+    },
+    {
+        "field": "phone:string",
+        "type": "text",
+        "validations": "required"
+    },
+    {
+        "field": "booking_date:timestamp",
+        "type": "date",
+        "validations": "required"
+    },
+    {
+        "field": "booking_time:string",
+        "type": "text",
+        "validations": "required"
+    }
+
+]

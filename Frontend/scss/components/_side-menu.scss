@@ -1,0 +1,39 @@
+// ion-side-menu
+.ion-side-menu {
+	background: url(../img/app-back.jpg) center / cover;
+	a.item-content, .item {
+		background: transparent;
+	}
+	.item {
+		border-color: transparent;
+		font-size: 25px;
+	}
+	a.item-content {
+		color: #acacac;
+		&.activated {
+			background: transparent;
+			color: #fff;
+		}
+		
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	.item-cat  {
+		.checkbox+span {
+			color: #fff;
+		}
+	}
+		.checkbox input:before, 
+		.checkbox-icon:before {
+			background-color: #615f5f;
+			border-color: #615f5f;
+		}
+		.checkbox input:checked:before, 
+		.checkbox input:checked + .checkbox-icon:before
+		{
+			background-color: #E4271A;
+			border-color: #E4271A;
+		}
+}

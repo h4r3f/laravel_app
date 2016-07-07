@@ -1,0 +1,27 @@
+//ionic-datepicker
+.ionic-datepicker{
+	.no_padding{
+		align-items: center;
+	}
+	.select_section{
+		.col-50{
+			padding: 5px;
+			select {
+			  font-weight: 400;
+			}
+		}
+	}
+	.calendar_grid{
+		text-align: center;
+	}
+}
+.timePicker{
+	.row{
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		.timePickerBoxText{
+			text-align: center;
+		}
+	}
+}

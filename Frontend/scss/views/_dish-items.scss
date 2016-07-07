@@ -1,0 +1,103 @@
+// dishitems
+.dish-list {
+	background: #f0f0f0;
+}
+.dish-details,
+.offer-details {
+	background: #fff;
+}
+.item-cart-info {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 3px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+.dish-item {
+	position: relative;
+	margin: 0 0 35px;
+	padding: 0;
+	box-shadow: 2px 2px 2px #ccc;
+	border-radius: 0;
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
+	.item-title {
+		width: 100%;
+		z-index: 9;
+		padding: 10px;
+		background: #444;
+		color: #fff;
+		font-size: 20px;
+		font-weight: 700;
+		.cuisine {
+		display: block;
+		font-size: 15px;
+		font-style: italic;
+		font-weight: normal;
+		}
+	}
+	.item-image {
+		a {
+			display: block;
+		}
+	}
+	.item {
+		border:0px;
+	}
+	.item-image-full {
+		width: 100%;
+	}
+	.cuisine {
+		display: block;
+	}
+	.item-options {
+	background: #fff;
+		.checkbox input:checked:before,
+		.checkbox input:checked + .checkbox-icon:before {
+			background-color: #e42112;
+			border-color: #e42112;
+		}
+}
+.button {
+	font-size: 24px;
+		&:hover,
+		&:focus, &.activated, &.selected  {
+			box-shadow: none;
+			background: #e73f53;
+			color: #fff;
+		}
+		.badger{
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			padding: 2px 0;
+			text-align: center;
+			color: #333;
+			font-size: 10px;
+			line-height: 1.2;
+			background: rgba(255, 255, 255, 0.7);
+		}
+	}
+	.item-likes {
+		font-size: 12px;
+	}
+	.item-price {
+		font-size: 25px;
+		padding-right: 10px;
+		float: left;
+    small{
+      font-size: 65%;
+    }
+	}
+	.item-meta {
+		line-height: 25px;
+	}
+}
+.dish-content{
+	color: #333;
+	line-height: 1.8;
+}

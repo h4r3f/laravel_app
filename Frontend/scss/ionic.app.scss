@@ -1,0 +1,30 @@
+/*
+App : Restaurant App
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import '_variables.scss';
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+// Components
+@import 'components/_base.scss';
+@import 'components/_side-menu.scss';
+@import 'components/_date-picker.scss';
+@import 'components/_walkthrough.scss';
+
+
+// Views
+@import 'views/_home.scss';
+@import 'views/_add-user.scss';
+@import 'views/_user-page.scss';
+@import 'views/_dish-items.scss';
+@import 'views/_contact.scss';
+@import 'views/_cart.scss';
+@import 'views/_confirm-order.scss';
+@import 'views/_thank-you.scss';
+@import 'views/_category-list.scss';
+@import 'views/_packages.scss';
+@import 'views/_booktable.scss';
+
